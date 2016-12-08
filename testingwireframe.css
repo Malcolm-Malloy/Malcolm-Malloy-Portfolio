@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+/* TRBL */
+
+/* RED WIREFRAME BORDERS */
+#main {
+	border:thin red solid;
+}
+
+/* LOGIN DIV */
+#login {
+	border:thin red solid;
+}
+
+/* BANNER DIV (HOMEPAGE) */
+#banner {
+	border:thin red solid;
+}
+	
+/* HEADER DIV */
+header {
+	border:thin red solid;
+}
+
+/* SECTION DIV (MAIN CONTENT) */
+section {
+	border:thin red solid;
+	
+}
+
+/* WATERMARK DIV */
+#watermark {
+	border:thin red solid;
+}
+
+/* FOOTER MENU DIV */
+footer {
+	border:thin red solid;
+}
+
+
+/* Website created by Malcolm Malloy 2015 */
