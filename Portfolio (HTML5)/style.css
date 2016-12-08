@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+/* Stylesheet for Lumana Crafts */
+/* TRBL */
+
+/* GENERAL HTML AND BODY TAGS */
+html {
+	height: 100%;
+}
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-height: 100%;
+    width: auto;  /* Firefox will set width as auto */
+	
+}
+
+#main {
+	min-width: 600px;
+	height: 100%;
+	/* border:thin red solid; */
+}
+
+/* LOGIN DIV */
+#login {
+	padding: 10px 30px 10px 30px;
+	height: 20px;
+	background-color: #333;
+	color: #FFF;
+	/* border:thin red solid; */
+}
+
+#login p {
+	margin: 0px;
+}
+
+#login a {
+	font-family:Tahoma, Geneva, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#login a:link, a:visited, a:hover, a:active {
+    color: #fff;
+}
+
+/* MAIN NAVIGATION MENU DIV */
+nav {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 10px 30px 10px 30px;
+	color: #333;
+	background-color: #eee;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.85em;
+	padding: 0px 20px 0px 20px;
+}
+
+nav a:link, a:visited, a:hover, a:active {
+    color: #333;
+}
+
+/* BANNER DIV (HOMEPAGE) */
+#banner {
+	text-align: center;
+}
+	
+/* HEADER DIV */
+header {
+	padding: 30px 0px 20px 0px;
+	color: #333;
+	text-align: center;
+	/* border:thin red solid; */
+}
+
+header h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #333;
+	text-align: center;
+	font-size: 42px;
+}
+
+header h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #069;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 4px;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:link, a:visited, a:hover, a:active {
+    color: #333;
+}
+
+/* SECTION DIV (MAIN CONTENT) */
+section {
+	height: 100%;
+	margin: 0 26%;
+	line-height: 1.5em;
+	/* border:thin red solid; */
+}
+
+section p {
+	margin: 1em 0em 1em 0em;
+}
+
+section li {
+	margin: 1em 0em 1em 2.5em;
+	list-style-type: circle;
+}
+
+section i {
+	font-style: italic;
+	font-weight: bolder;
+}
+/* WATERMARK DIV */
+#watermark {
+	text-align:right;
+	width:100%; 
+	color:#999;
+	position:fixed;
+	bottom:44px;
+	/* border:thin red solid; */
+}
+
+/* FOOTER MENU DIV */
+footer {
+	padding: 6px 0px 10px 0px;
+	color: #333;
+	background-color: #eee;
+	text-align: center;
+	min-width: 100%;
+	height: 14px;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	position:absolute;
+	/* border:thin red solid; */
+}
+
+footer a {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 0.85em;
+	padding: 0px 20px 0px 20px;
+}
+
+footer a:link, a:visited, a:hover, a:active {
+    color: #333;
+}
+
+/* Website created by Malcolm Malloy 2015 */
