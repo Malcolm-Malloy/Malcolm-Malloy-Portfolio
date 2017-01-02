@@ -11,8 +11,10 @@
 <!-- CSS -->
 <!-- Reset Stylesheet - (This stylesheet is used to reset the default CSS settings set by browsers) -->
 <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
-<!-- Main Stylesheet -->
+<!-- Style Stylesheet -->
 <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+<!-- Content Stylesheet -->
+<link rel="stylesheet" type="text/css" media="screen" href="content.css">
 <!-- Internet Explorer Stylesheet - (fixes some CSS issues with IE6,7,8) -->
 <!--[if IE ]>
 <link href="iefixes.css" rel="stylesheet" type="text/css">
@@ -49,101 +51,155 @@
 </head>
 
 <body>
-    <div id="main">
-    
-        <!-- Login Menu -->
-        <div id="login">
-            <p>
-                <span style="float: left">
-                    <a href="index.php"><img src="images/home_button.gif" name="home" alt="Home button link" width="16" height="16"></a>
-                </span>
-                
-                <!-- RE-ADD THIS WHEN BACKEND IS FUNCTIONAL! -->
-                <!-- Admin Login -->
-                <!-- <span style="float: right; padding-top: 2px;">
-                    Admin : <a href="admin/login.php">Login</a>
-                </span> -->
-            </p>
+
+
+<div id="splashScreen">
+
+    <!-- Login Menu -->
+    <div id="login">
+        <p>
+            <span style="float: left">
+                <a href="index.php"><img src="images/home_button.gif" name="home" alt="Home button link" width="16" height="16"></a>
+            </span>
             
-        </div>
-                
-        <!-- Main Navigation Menu -->
-        <nav>
-        	<a class="nav_websites" href="websites.php">Websites</a>       
-            <a class="nav_artwork" href="artwork.php">Artwork</a>
-            <a class="nav_blogs" href="blogs.php">Project Blogs</a>
-            <a class="nav_about" href="about.php">About</a>
-            <a class="nav_contact" href="contact.php">Contact</a>      
-        </nav> 
+            <!-- RE-ADD THIS WHEN BACKEND IS FUNCTIONAL! -->
+            <!-- Admin Login -->
+            <!-- <span style="float: right; padding-top: 2px;">
+                Admin : <a href="admin/login.php">Login</a>
+            </span> -->
+        </p>
         
-        <!-- Banner Image -->
-        <div id="banner">
-            <img src="images/Banner_02.bmp" alt="Malcolm Malloy's Information Technology Portfolio" width="660" height="150"/>
-            
-        </div>
-         
-        <!-- Content Div - Quote -->
-        <section id="content_quote">  
-        	<p><i>&quot;My passion is to blur the boundary between Technology and art to create innovative IT solutions.&quot;</i></p>
-        </section>
-                   
-        <!-- Content Div - Project -->
-        <section id="content_project">	
-            
-            <h1>Current Project</h1>
-            <p>My first goal is to create a portfolio that will display all my current and completed projects while evolving to showcase the skills I gain throughout my career.</p>
-            <p>The features I am currently implementing are:</p>
-            
-            <ul>
-                <li>Image of erasor in the footer</li>
-                <li>Scrolling front page that will display short text animations</li>
-                <li>A linked Wordpress blog that will document and track the portfolios evolution while simultaneously evolving to match its graphical style</li>
-                <li>Animated infographics for project progression</li>
-                <li>Update news feed that links to the Wordpress blog</li>
-            </ul>
-            
-        </section>
-        
-        <!-- Content Div - My Service -->
-        <section id="content_service">	
-        	<h1>What can I do for your business?</h1>
-            <p>Web design is no longer just about presenting dry paragraphs of information, it’s about creating an engaging and artistic solution that can be accessed quickly and easily by the widest possible audience.</p>
-			<p>My solutions achieve this by providing the following:</p>
-            
-            <ul>
-				<li>Placing a strong emphasis on search engine optimisation (SEO) in regards to visible content, metadata and the coding structure</li>
-				<li>Minimising loading times to maximise end-user satisfaction</li>
-				<li>Optimised coding to increase accessibility to a global audience</li>
-				<li>Screen reader friendly coding</li>
-				<li>Ensuring that older browsers render the website effectively to maximise accessibility.</li>
-                <li>Scalable and robust design that seamlessly adapts to large monitor resolutions or small screen portable devices</li>
-                <li>All graphical design work will be heuristically evaluated and tested to ensure compliance with <i>Nielsen’s Heuristics</i>, <i>Norman’s design principles</i> and <i>Shneiderman’s Golden Rules</i></li> 
-            </ul>
-            
-        </section>
-		
-        <!-- REMEMBER TO ADD BEFORE WEBSITE LAUNCH -->
-        <!-- Floating watermark -->
-        <!--
-        <div id="watermark">
-            <article style="padding-right:20px; height;100%;">
-                &copy; Created by Malcolm Malloy 
-                <time datetime="2016-12-02" pubdate="pubdate">2016</time>
-            </article>
-        </div>
-        
-        
-        <!-- Footer menu -->
-        <footer>
-            <a href="websites.php">Websites</a>        
-            <a href="artwork.php">Artwork</a>
-            <a href="blogs.php">Project Blogs</a>
-            <a href="about.php">About</a>
-            <a href="contact.php">Contact</a>           
-        </footer> 
     </div>
-                   
-   
+            
+    <!-- Main Navigation Menu -->
+    <nav>
+        <a class="nav_websites" href="websites.php">Websites</a>       
+        <a class="nav_artwork" href="artwork.php">Artwork</a>
+        <a class="nav_blogs" href="blogs.php">Project Blogs</a>
+        <a class="nav_about" href="about.php">About</a>
+        <a class="nav_contact" href="contact.php">Contact</a>      
+    </nav> 
+    
+    <!-- Banner Image -->
+    <div id="banner">
+        <img src="images/Banner_02.bmp" alt="Malcolm Malloy's Information Technology Portfolio" width="660" height="150"/>
+        
+    </div>
+     
+    <!-- Quote -->
+    <section id="content_quote">  
+        <p><i>&quot;My passion is to blur the boundary between Technology and art to create innovative IT solutions.&quot;</i></p>
+    </section>
+    
+</div>
+
+<div id="wrapper">	
+
+    <!-- Resume -->
+    <div id="resume">
+        <aside id="aside_bio">
+
+            <ul>
+        		<li><a href="#">Education</a></li>
+            	<li><a href="#">Employment</a></li>
+            	<li><a href="#">Languages</a></li>
+            </ul>
+            
+        </aside>
+        
+        
+        <section id="content_resume">	
+        
+            <h1>Education</h1>
+            <h2>Masters of Business Information Systems</h2>
+            
+            <ul>
+            	<li>Learning business process modelling, design and simulation</li>
+                <li>Learning programming and design principles for small screen devices</li>
+                <li>Researching and constructing a minor thesis</li>
+                
+            </ul>
+            
+            <article id="logo_monash">
+            	<img src="images/monash-logo-transparent.png" alt="Monash University Logo" width="355" height="40"/>
+            </article>
+            
+            <h2>Bachelor of Information Technology Systems</h2>
+                        
+            <article id="logo_monash">
+            	<img src="images/monash-logo-transparent.png" alt="Monash University Logo" width="355" height="40"/>
+            </article>
+            
+            <h2>Diploma of Information Technology Multimedia</h2>
+            <article id="logo_monash">
+            	<img src="images/chisholm-institute.png" alt="Monash University Logo" width="163" height="50"/>
+            </article>
+            
+            <h2>Diploma of Information Technology Web Design</h2>
+            <article id="logo_monash">
+            	<img src="images/chisholm-institute.png" alt="Monash University Logo" width="163" height="50"/>
+                
+            </article>
+        </section>
+    </div>
+               
+    <!-- Project Description -->
+    <section id="content_project">	
+        
+        <h1>Current Project</h1>
+        <p>My first goal is to create a portfolio that will display all my current and completed projects while evolving to showcase the skills I gain throughout my career.</p>
+        <p>The features I am currently implementing are:</p>
+        
+        <ul>
+            <li>Image of erasor in the footer</li>
+            <li>Scrolling front page that will display short text animations</li>
+            <li>A linked Wordpress blog that will document and track the portfolios evolution while simultaneously evolving to match its graphical style</li>
+            <li>Animated infographics for project progression</li>
+            <li>Update news feed that links to the Wordpress blog</li>
+        </ul>
+        
+    </section>
+    
+    <!-- My Services -->
+    <section id="content_service">	
+        <h1>What can I do for your business?</h1>
+        <p>Web design is no longer just about presenting dry paragraphs of information, it’s about creating an engaging and artistic solution that can be accessed quickly and easily by the widest possible audience.</p>
+        <p>My solutions achieve this by providing the following:</p>
+        
+        <ul>
+            <li>Placing a strong emphasis on search engine optimisation (SEO) in regards to visible content, metadata and the coding structure</li>
+            <li>Minimising loading times to maximise end-user satisfaction</li>
+            <li>Optimised coding to increase accessibility to a global audience</li>
+            <li>Screen reader friendly coding</li>
+            <li>Ensuring that older browsers render the website effectively to maximise accessibility.</li>
+            <li>Scalable and robust design that seamlessly adapts to large monitor resolutions or small screen portable devices</li>
+            <li>All graphical design work will be heuristically evaluated and tested to ensure compliance with <i>Nielsen’s Heuristics</i>, <i>Norman’s design principles</i> and <i>Shneiderman’s Golden Rules</i></li> 
+        </ul>
+        
+    </section>
+    
+    <!-- REMEMBER TO ADD BEFORE WEBSITE LAUNCH -->
+    <!-- Floating watermark -->
+    <!--
+    <div id="watermark">
+        <article style="padding-right:20px; height;100%;">
+            &copy; Created by Malcolm Malloy 
+            <time datetime="2016-12-02" pubdate="pubdate">2016</time>
+        </article>
+    </div>
+    
+    
+    <!-- Footer menu -->
+    <footer>
+        <a href="websites.php">Websites</a>        
+        <a href="artwork.php">Artwork</a>
+        <a href="blogs.php">Project Blogs</a>
+        <a href="about.php">About</a>
+        <a href="contact.php">Contact</a>           
+    </footer> 
+
+</div>
 </body>
 </html>
+
 <!-- Website created by Malcolm Malloy 2016 -->

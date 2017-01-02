@@ -3,7 +3,7 @@
 /* TRBL */
 
 /* RED WIREFRAME BORDERS */
-#main {
+#main, {
 	border:thin red solid;
 }
 
@@ -22,8 +22,19 @@ header {
 	border:thin red solid;
 }
 
-/* SECTION DIV (MAIN CONTENT) */
+/* SPLASH SCREEN */
+#splashScreen {
+	border:thin red solid;
+}
+
+/* SECTION DIV */
 section {
+	border:thin red solid;
+	
+}
+
+/* ARTICLE DIV */
+article {
 	border:thin red solid;
 	
 }
@@ -39,4 +50,4 @@ footer {
 }
 
 
-/* Website created by Malcolm Malloy 2015 */
+/* Website created by Malcolm Malloy 2016 */
